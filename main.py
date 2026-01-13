@@ -36,7 +36,7 @@ class Appointment:
     def show_appointment(self):
         print(f"Sana: {self.data}")
         print(f"Bemor: {self.patient.name}, {self.patient.age} yosh")
-        print(f"Shifokor: {self.doctor.name}, {self.doctor.specialty}, {self.doctor.patient_type}")
+        print(f"Shifokor: {self.doctor.name}, {self.doctor.specialty}")
 
 
 doctor_ear = Doctor("Dr. Valijon", "Quloq salomatligi", "Hamma uchun", "8 yil")
@@ -64,11 +64,11 @@ def add_appointment(date, patient, doctor):
     return appointment
 
 
-doctor_children.set_name("Dr. Rustamjon")
+# doctor_children.set_name("Dr. Rustamjon")
 # print("Bolalar doktori yangi tayinlandi:", doctor_children.name)
-appointment1 = add_appointment("2025-05-23", patient1, doctor_children)
-appointment2 = add_appointment("2025-05-24", patient2, doctor_brain)
-appointment3 = add_appointment("2025-07-22", patient3, doctor_ear)
+# appointment1 = add_appointment("2025-05-23", patient1, doctor_children)
+# appointment2 = add_appointment("2025-05-24", patient2, doctor_brain)
+# appointment3 = add_appointment("2025-07-22", patient3, doctor_ear)
 # appointment1.show_appointment()
 # print()
 # appointment2.show_appointment()
@@ -76,8 +76,6 @@ appointment3 = add_appointment("2025-07-22", patient3, doctor_ear)
 # appointment3.show_appointment()
 # print()
 
-
-# Malumot qidirish bolimi
 # print("Shifo xona doktorlar royhati:")
 # for doc in doctors:
 #     print(doc.get_info_doctors())
