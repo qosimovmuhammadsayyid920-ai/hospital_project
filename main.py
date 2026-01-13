@@ -91,4 +91,4 @@ def add_appointment(date, patient, doctor):
 #     print("Topilgan shifokor malumoti")
 #     print(doctor_found.get_info_doctors())
 # else:
-#     print(f"{search_name} ismli shifokor topilmadi")
+#     print(f"{search_name} ismli shifokor topilmadi")# Main program file
